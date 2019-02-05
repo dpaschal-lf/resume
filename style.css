@@ -1,0 +1,148 @@
+html{
+	font-size: 2vmin;
+}
+.contactInfo{
+	height: 20vh;
+	background-color: lavender;
+	font-size: 0;
+}
+.contactInfo > *{
+	font-size: 1rem;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+}
+.leftInfo, .rightInfo{
+	width: 25%;
+	padding-top: 2%;
+}
+.rightInfo{
+	text-align: right;
+}
+.centerInfo{
+	width: 50%;
+	font-weight: bold;
+}
+.centerText{
+	text-align: center;
+	font-size: 180%;
+	line-height: 20vh;
+}
+.technologies{
+	font-size: 0;
+	position: relative;
+	margin-top: 1ex;
+	height: 20vh;
+}
+.sectionBreak{
+	display: flex;
+	align-items: center;
+	margin: 0 1%;
+}
+.sectionBreak > span{
+	background-color: lavender;
+	margin: 1%;
+	padding: .5%;
+	font-weight: bold;
+}
+.sectionBreak::before, .sectionBreak::after{
+	content:'';
+	flex-grow: 1;
+	height: 3px;
+	background-color: lavender;
+
+}
+
+.technologies > section{
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 1rem;
+	height: 100%;
+	display: inline-flex;
+}
+.strong, .experienced{
+	border: 3px solid lavender;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+.strong{
+	width: 60%;
+}
+.experienced{
+	width: 40%;
+}
+.technologies .skillList{
+	flex-grow: 1;
+}
+.technologies .skillList span{
+	font-weight: bold;
+	background-color: lightgrey;
+	padding: .5% 1%;
+	margin: .5%;
+	display: inline-block;
+	border-top-right-radius: 33%;
+	border-bottom-left-radius: 33%;
+	color: black;
+	font-family: arial;
+	height: 2em;
+	line-height: 2em;
+}
+.technologies > section > span:first-letter{
+	font-size: 180%;
+	text-transform: uppercase;
+	color: red;
+}
+.verticalText{
+	height: 100%;
+	vertical-align: top;
+	display: inline-flex;
+	flex-direction: column;
+	width: 2%;
+	background-color: black;
+
+
+}
+.verticalText > span{
+	display: inline-block;
+	height: 100%;
+	justify-content: space-around;
+	text-align: center;
+	color: white;
+}
+/*.technologies > section > span + span::before{
+	content: '\000B7';
+	font-size: 200%;
+}*/
+.experience > section{
+	border-bottom: 1px solid;
+}
+
+.experience > section > header{
+	background-color: grey;
+	font-size: 0;
+}
+.experience > section > header > *{
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+.experience header > *{
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+}
+.experience header .title::before{
+	content: '\000B7';
+	font-size: 200%;
+	margin-left: 1%;
+}
+.experience header .title{
+	width: 75%;
+	font-weight: bold;
+}
+.experience .title > .role{
+	display: inline;
+}
+.experience header .duration{
+	width: 25%;
+}
