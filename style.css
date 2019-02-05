@@ -87,6 +87,7 @@ html{
 	font-family: arial;
 	height: 2em;
 	line-height: 2em;
+	
 }
 .technologies > section > span:first-letter{
 	font-size: 180%;
@@ -98,13 +99,14 @@ html{
 	vertical-align: top;
 	display: inline-flex;
 	flex-direction: column;
-	width: 2%;
+	width: 30px;
 	background-color: black;
+	font-family: arial;
 
 
 }
 .verticalText > span{
-	display: inline-block;
+	display: block;
 	height: 100%;
 	justify-content: space-around;
 	text-align: center;
@@ -142,6 +144,7 @@ html{
 }
 .experience .title > .role{
 	display: inline;
+	color: black;
 }
 .experience header .duration{
 	width: 25%;
